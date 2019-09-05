@@ -1,0 +1,115 @@
+body{
+  background-image: url('techworld1.jpg')
+}
+
+.center-products {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.carousal {
+  background-image: url(morocco.png)
+}
+
+.carousal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousal-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-text{
+  font-family: 'Patua One', cursive;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .btn-1 {
+    background-color: #ffffff;
+    border: 2px solid red;
+    color: red;
+    width: 100px;
+  }
+  
+  .btn-2 {
+    background-color: red;
+    color: #ffffff;
+    width: 100px;
+  }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .btn-1 {
+      background-color: #ffffff;
+      border: 2px solid red;
+      color: red;
+      width: 150px;
+    }
+    
+    .btn-2 {
+      background-color: red;
+      color: #ffffff;
+      width: 150px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .btn-1 {
+      background-color: #ffffff;
+      border: 2px solid red;
+      color: red;
+      width: 150px;
+    }
+    
+    .btn-2 {
+      background-color: red;
+      color: #ffffff;
+      width: 150px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .btn-1 {
+      background-color: #ffffff;
+      border: 2px solid red;
+      color: red;
+      width: 150px;
+    }
+    
+    .btn-2 {
+      background-color: red;
+      color: #ffffff;
+      width: 150px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .btn-1 {
+      background-color: #ffffff;
+      border: 2px solid red;
+      color: red;
+      width: 150px;
+    }
+    
+    .btn-2 {
+      background-color: red;
+      color: #ffffff;
+      width: 150px;
+    }
+  }
