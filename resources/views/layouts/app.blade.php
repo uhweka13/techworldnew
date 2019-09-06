@@ -22,10 +22,11 @@
 <body>
     <div id="app">
         @include('navs.header')
-        <main class="py-4">
+        <main class="py-4" style="margin-top: 50px;">
             @yield('content')
         </main>
     </div>
     @include('navs.footer')
+    {{-- <script src="{{asset('/js/app.js')}}"></script> --}}
 </body>
 </html>

@@ -1,4 +1,4 @@
-body{
+main{
   background-image: url('techworld1.jpg')
 }
 
@@ -34,6 +34,8 @@ body{
 
 
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .btn-1 {
@@ -47,6 +49,11 @@ body{
     background-color: red;
     color: #ffffff;
     width: 100px;
+  }
+
+  .login-card {
+    width: 100%; 
+    margin: 0 auto;
   }
   }
   
@@ -64,6 +71,11 @@ body{
       color: #ffffff;
       width: 150px;
     }
+
+    .login-card {
+      width: 100%; 
+      margin: 0 auto;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -79,6 +91,15 @@ body{
       background-color: red;
       color: #ffffff;
       width: 150px;
+    }
+
+    .login-card {
+      width: 70%; 
+      margin: 0 auto;
+    }
+
+    .login-margin{
+      margin:20px;
     }
   } 
   
@@ -96,6 +117,15 @@ body{
       color: #ffffff;
       width: 150px;
     }
+
+    .login-card {
+      width: 50%; 
+      margin: 0 auto;
+    }
+
+    .login-margin{
+      margin:30px;
+    }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -111,5 +141,14 @@ body{
       background-color: red;
       color: #ffffff;
       width: 150px;
+    }
+
+    .login-card {
+      width: 50%; 
+      margin: 0 auto;
+    }
+
+    .login-margin{
+      margin:30px;
     }
   }
