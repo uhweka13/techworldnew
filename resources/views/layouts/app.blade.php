@@ -23,6 +23,7 @@
     <div id="app">
         @include('navs.header')
         <main class="py-4" style="margin-top: 50px;">
+            @include('messages.messages')
             @yield('content')
         </main>
     </div>

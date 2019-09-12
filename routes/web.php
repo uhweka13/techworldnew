@@ -12,6 +12,11 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::resource('checkoutdata', 'PagesController');
+
+
+
+
 
 Auth::routes();
 

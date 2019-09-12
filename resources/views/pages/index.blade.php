@@ -20,36 +20,40 @@
     <div class="card-columns">
       <div class="card bg-default" style="height: 200px;">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the first card</p>
+          <h1 style="font-family: 'Patua One', cursive;">Affordability</h1>
+          <p class="card-text" style="font-family: 'Patua One', cursive;">Techworld.com.ng deliver products that are cheap and Affordable</p>
         </div>
       </div>
       <div class="card bg-default" style="height: 200px;">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the second card</p>
+          <h1 style="font-family: 'Patua One', cursive;">Delivery</h1>
+          <p class="card-text" style="font-family: 'Patua One', cursive;">Our data Allocation service is automated ensuring data delivery is done promptly.</p>
         </div>
       </div>
       <div class="card bg-default" style="height: 200px;">
         <div class="card-body text-center">
-          <p class="card-text">Some text inside the third card</p>
+          <h1 style="font-family: 'Patua One', cursive;">Reliability</h1>
+          <p class="card-text" style="font-family: 'Patua One', cursive;">Techworld.com.ng provide trust worthy services. We have created reputation 
+            for ourself through awesome service delivery</p>
         </div>
       </div>
     </div>
     <br><br>
 
-      <h1 style="text-align: center; color: white;">Our Product</h1>
+      <h1 style="text-align: center; color: white; font-family: 'Patua One', cursive;">Our Product</h1>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm center-products">
-          <img src="{{asset('img/MTN-Airtime.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
+          <img class="img-products" src="{{asset('img/MTN-Airtime.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
         </div>
         <div class="col-sm center-products">
-          <img src="{{asset('img/Gotv-Payment.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
+          <img class="img-products" src="{{asset('img/Gotv-Payment.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
         </div>
         <div class="col-sm center-products">
-          <img src="{{asset('img/Startimes-Subscription.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
+          <img class="img-products" src="{{asset('img/Startimes-Subscription.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
         </div>
         <div class="col-sm center-products">
-          <img src="{{asset('img/Jos-Electric-JED.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
+          <img class="img-products" src="{{asset('img/Jos-Electric-JED.jpg')}}" alt="" style="border-radius: 4px; margin: 10px;">
         </div>
       </div>  
     </div>
@@ -73,13 +77,13 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="{{asset('img/ttt.jpg')}}" alt="Los Angeles" width="100%">
+                    <img src="{{asset('img/electric.jpg')}}" alt="Los Angeles" width="100%">
                   </div>
                   <div class="carousel-item">
-                    <img src="{{asset('img/ttt1.jpg')}}" alt="Chicago" width="100%">
+                    <img src="{{asset('img/sms.jpg')}}" alt="Chicago" width="100%">
                   </div>
                   <div class="carousel-item">
-                    <img src="{{asset('img/ttt2.jpg')}}" alt="New York" width="100%">
+                    <img src="{{asset('img/dataplans.jpg')}}" alt="New York" width="100%">
                   </div>
                 </div>
 
@@ -95,10 +99,8 @@
 
         {{-- </div> --}}
       </div>
-      <div class="card bg-warning">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the second card</p>
-        </div>
+      <div class="card" style="background: transparent;">
+        <img src="{{asset('img/TECHWORLD.COM.NG.jpg')}}" alt="" width="100%">
       </div>
 
 
